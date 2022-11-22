@@ -1,38 +1,29 @@
 {
-  "name": "dungeons:dungeon_rooms",
+  "name": "dungeons:dungeon_arena_lanterns",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 30,
+      "weight": 33,
       "element": {
-        "location": "dungeons:dungoen_room_small",
+        "location": "dungeons:dungeon_arena_lantern_2",
         "processors": "minecraft:empty",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 30,
+      "weight": 33,
       "element": {
-        "location": "dungeons:dungeon_room_tall",
+        "location": "dungeons:dungeon_arena_lantern_3",
         "processors": "minecraft:empty",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 20,
+      "weight": 33,
       "element": {
-        "location": "dungeons:dungeon_room_long",
-        "processors": "minecraft:empty",
-		    "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 20,
-      "element": {
-        "location": "dungeons:dungeon_room_large",
+        "location": "dungeons:dungeon_arena_lantern_4",
         "processors": "minecraft:empty",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

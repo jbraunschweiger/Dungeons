@@ -1,0 +1,24 @@
+{
+  "name": "dungeons:dungeon_arena_floor_corner",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 60,
+      "element": {
+        "location": "dungeons:dungeon_arena_bounce",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "dungeons:dungeon_arena_treasure",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

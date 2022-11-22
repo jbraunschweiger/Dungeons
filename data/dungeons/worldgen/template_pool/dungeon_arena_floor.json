@@ -1,41 +1,50 @@
 {
-  "name": "dungeons:dungeon_rooms",
+  "name": "dungeons:dungeon_arena_floor",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 30,
       "element": {
-        "location": "dungeons:dungoen_room_small",
+        "location": "dungeons:dungeon_arena_bounce",
         "processors": "minecraft:empty",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 30,
+      "weight": 10,
       "element": {
-        "location": "dungeons:dungeon_room_tall",
+        "location": "dungeons:dungeon_arena_general",
         "processors": "minecraft:empty",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 20,
+      "weight": 10,
       "element": {
-        "location": "dungeons:dungeon_room_long",
+        "location": "dungeons:dungeon_arena_rook",
         "processors": "minecraft:empty",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 20,
+      "weight": 5,
       "element": {
-        "location": "dungeons:dungeon_room_large",
+        "location": "dungeons:dungeon_arena_treasure",
         "processors": "minecraft:empty",
 		    "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "location": "dungeons:dungeon_arena_treasure",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:empty_pool_element"
       }
     }
   ]
